@@ -112,19 +112,20 @@ a {
 
  /*query media*/
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 350px) {
+     .landing{
+   height: 50%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 30%;
+     box-shadow: 5px 1px white;
+   
+}
    input {
-     width: 300px;
+     width: 100px;
    }
 }
- @media screen and (max-width: 900px) {
-   input {
-     width: 500px;
-   }
-  h1 {
-    font-size: 20px;
-    text-align: center;
-
-  }
-}
+ 
 
