@@ -83,11 +83,23 @@ input {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 700px) {
+  .landing {
+   height: 89%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 35px auto 30px auto;
+    width: 40%;
+    box-shadow: 5px 1px white;
+   
+}
   
   img {
-     width: 50%;
-     height: 15%;
+    margin-left: 40px;
+     width: 80%;
+     height: 25%;
     text-align: center;
   }
+  
 }
